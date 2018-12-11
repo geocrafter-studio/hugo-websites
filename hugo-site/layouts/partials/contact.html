@@ -27,14 +27,14 @@
                     <div class="row control-group">
                         <div class="form-group col-xs-12 floating-label-form-group controls">
                             <label>{{ with .Site.Params.contact.form.phone.text }}{{.}}{{ end }}</label>
-                            <input type="tel" class="form-control" placeholder="{{ with .Site.Params.contact.form.phone.text }}{{.}}{{ end }}" id="phone" required data-validation-required-message="{{ with .Site.Params.contact.form.phone.error }}{{.}}{{ end }}">
+                            <input type="text" class="form-control" name="phone" placeholder="{{ with .Site.Params.contact.form.phone.text }}{{.}}{{ end }}" id="phone" required data-validation-required-message="{{ with .Site.Params.contact.form.phone.error }}{{.}}{{ end }}">
                             <p class="help-block text-danger"></p>
                         </div>
                     </div>
                     <div class="row control-group">
                         <div class="form-group col-xs-12 floating-label-form-group controls">
                             <label>{{ with .Site.Params.contact.form.subject.text }}{{.}}{{ end }}</label>
-                            <select type="subj" class="form-control" id="subject" required data-validation-required-message="{{ with .Site.Params.contact.form.subject.error }}{{.}}{{ end }}">
+                            <select type="text" class="form-control" name="subject" id="subject" required data-validation-required-message="{{ with .Site.Params.contact.form.subject.error }}{{.}}{{ end }}">
                               <option value="" disabled selected>{{ with .Site.Params.contact.form.subject.text }}{{.}}{{ end }}</option>
                               <option value="General Information">General Information</option>
                               <option value="Workshops and Training">Workshops and Training</option>
@@ -43,10 +43,10 @@
                             <p class="help-block text-danger"></p>
                         </div>
                     </div>
-                    <div>
+                    <!--div>
                         <input type="hidden"  name="_subject" value="New submission!">
                         <input type="text" name="_gotcha" style="display:none" />
-                    </div>
+                    </div-->
                     <div class="row control-group">
                         <div class="form-group col-xs-12 floating-label-form-group controls">
                             <label>{{ with .Site.Params.contact.form.message.text }}{{.}}{{ end }}</label>
