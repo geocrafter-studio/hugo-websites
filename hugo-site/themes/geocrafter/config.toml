@@ -57,11 +57,23 @@ theme = "geocrafter"
             buttontext = "Close"
 
 
+    [params.workshops]
+        title = "Workshops"
+
+        [params.workshops.modal]
+            module = "Module"
+            date = "Date"
+            contents = "Contents"
+            lenght = "Duration"
+            price = "Price"
+            buttontext = "Close"
+
+
     [params.about]
         title = "About Us"
         # The about text is splitted into a left and right column
         left = "<p align=\"justify\">We are a small innovative geospatial studio fostering the usage and development of Open Source based solutions.</p><p align=\"justify\">Our technical knowledge in geospatial world is built on top of two decades of experience both in public and private sectors.</p>"
-        right = "<p align=\"justify\">We help organizations to achieve the best results using state of the art technology.</p><p align=\"justify\"> We will provide a customized plan to excel your organization needs on geospatial world.</p><p>Don't hesitate and talk with us!</p>"
+        right = "<p align=\"justify\">We help organizations to achieve the best results using state of the art technology.</p><p align=\"justify\"> We provide a customized plan to excel your organization needs on geospatial world.</p><p>Don't hesitate and talk with us!</p>"
 
         [params.about.button]
             text = "Download theme"
@@ -85,8 +97,8 @@ theme = "geocrafter"
             text = "Phone Number"
             error = "Please enter your phone number."
 
-        [params.contact.form.subject]
-            text = "Subject"
+        [params.contact.form.modules]
+            text = "Módulo"
             error = "Please choose your subject."
 
         [params.contact.form.message]

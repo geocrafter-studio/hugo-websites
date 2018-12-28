@@ -1,0 +1,26 @@
+{{ "<!-- Portfolio Grid Section -->" | safeHTML }}
+<section id="workshops">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2>{{ with .Site.Params.workshops.title }}{{.}}{{end}}</h2>
+                <hr class="star-primary">
+            </div>
+        </div>
+        <div class="row">
+            {{ range $.Site.Data.training }}
+            <div class="col-lg-3 col-lg-offset-0 portfolio-item">
+                <a href="#workshopsModal{{ .modalID }}" class="portfolio-link" data-toggle="modal">
+                    <div class="caption">
+                        <div class="caption-content text-center">
+                            <i class="fa fa-globe fa-4x"></i>
+                            <p>{{ .module }}<p>
+                        </div>
+                    </div>
+                    <!--img src="img/portfolio/{{ .img }}" class="img-responsive"-->
+                </a>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>
