@@ -131,6 +131,10 @@ theme = "geocrafter"
                 link = "//github.com/geocrafter-studio"
 
             [[params.footer.social.networks]]
+                icon = "fab fa-linkedin"
+                link = "//www.linkedin.com/company/geocrafter---geospatial-studio"
+
+            [[params.footer.social.networks]]
                 icon = "fab fa-twitter"
                 link = "//twitter.com/GeocrafterGS"
 
