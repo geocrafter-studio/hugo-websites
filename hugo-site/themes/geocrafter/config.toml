@@ -115,7 +115,7 @@ theme = "geocrafter"
         [params.footer.location]
             title = "Office"
             # Postal address (add as many lines as necessary)
-            address = ["Centro de Negócios de Ansião, Gab. 12", "Parque Empresarial do Camporês", "3240-509 Chão de Couce", "PORTUGAL"]
+            address = ["Rua Capela de S. Gens, 43", "3240-416 Serra - Alvorge", "PORTUGAL"]
 
         [params.footer.social]
             title = "Where to find us"
