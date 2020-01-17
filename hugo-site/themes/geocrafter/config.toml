@@ -115,7 +115,7 @@ theme = "geocrafter"
         [params.footer.location]
             title = "Office"
             # Postal address (add as many lines as necessary)
-            address = ["Rua Capela de S. Gens, 43", "3240-416 Serra - Alvorge", "PORTUGAL"]
+            address = ["HIESE - Quinta Vale do Espinhal", "EM 558-1 Vale do Espinhal", "3230-343 Penela", "PORTUGAL"]
 
         [params.footer.social]
             title = "Where to find us"
