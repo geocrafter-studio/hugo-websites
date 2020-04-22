@@ -72,7 +72,7 @@ theme = "geocrafter"
     [params.about]
         title = "About Us"
         # The about text is splitted into a left and right column
-        left = "<p align=\"justify\">We are a small innovative geospatial studio fostering the usage and development of Open Source based solutions.</p><p align=\"justify\">Our technical knowledge in geospatial world is built on top of two decades of experience both in public and private sectors.</p>"
+        left = "<p align=\"justify\">We are a small innovative B2B geospatial studio fostering the usage and development of Open Source based solutions.</p><p align=\"justify\">Our technical knowledge in geospatial world is built on top of two decades of experience both in public and private sectors.</p>"
         right = "<p align=\"justify\">We help organizations to achieve the best results using state of the art technology.</p><p align=\"justify\"> We provide a customized plan to excel your organization needs on geospatial world.</p><p>Don't hesitate and talk with us!</p>"
 
         [params.about.button]
@@ -115,7 +115,7 @@ theme = "geocrafter"
         [params.footer.location]
             title = "Office"
             # Postal address (add as many lines as necessary)
-            address = ["HIESE - Quinta Vale do Espinhal", "EM 558-1 Vale do Espinhal", "3230-343 Penela", "PORTUGAL"]
+            address = ["Rua Capela de S. Gens, 43", "Alvorge", "3240-416 Serra", "PORTUGAL"]
 
         [params.footer.social]
             title = "Where to find us"
