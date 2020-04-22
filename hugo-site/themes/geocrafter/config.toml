@@ -28,16 +28,9 @@ theme = "geocrafter"
     # - you're done. Happy mailing!
     email = "info@geocrafter.eu"
 
-    # Optionally display a message about the site's use of cookies, which may be
-    # required for your site in the European Union. Set the parameter below to a
-    # page where the user can get more information about cookies, either on your
-    # site or externally, for example:
-    #cookie_consent_info_url = "/cookie-information/"
-    cookie_consent_info_url = "https://cookiesandyou.com"
-
     # Custom assets
-  	custom_css = []
-  	custom_js  = []
+	custom_css = []
+	custom_js  = []
 
     [params.navigation]
         brand = "Geocrafter - Geospatial Studio"

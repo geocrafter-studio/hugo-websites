@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
     <head>
-        {{ if .Site.Params.cookie_consent_info_url }}
-          {{ partial "cookie-consent.html" . }}
-        {{ end }}
         {{ partial "head.html" . }}
     </head>
     <body id="page-top" class="index">
