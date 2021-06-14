@@ -105,6 +105,9 @@ theme = "geocrafter"
             text = "Message"
             error = "Please enter a message."
 
+        [params.contact.form.gdpr]
+            text = "By clicking below to submit this form you acknowledge that the information you provide will be stored and processed in accordance with GDPR guidelines."
+
         [params.contact.form.button]
             text = "Send"
 
