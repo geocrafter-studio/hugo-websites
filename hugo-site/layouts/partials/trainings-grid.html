@@ -9,14 +9,14 @@
         </div>
         <div class="row">
             {{ range $.Site.Data.training }}
-            <div class="col-sm-4 portfolio-item">
+            <div class="col-lg-3 col-lg-offset-0 portfolio-item">
                 <a href="#trainingsModal{{ .modalID }}" class="portfolio-link" data-toggle="modal">
                   <div class="caption">
-                      <div class="caption-content">                          
+                      <div class="caption-content">
                           <p>{{ .module }}<p>
                       </div>
                   </div>
-                  <img src="{{ .img }}" class="img-responsive">
+                  <!--img src="{{ .img }}" class="img-responsive"-->
                 </a>
             </div>
             {{ end }}
