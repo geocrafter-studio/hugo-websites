@@ -68,6 +68,19 @@ theme = "geocrafter"
             price = "Price"
             buttontext = "Close"
 
+    [params.training]
+        title = "Trainings"
+
+        [params.training.modal]
+            module = "Module"
+            date = "Date"
+            contents = "Contents"
+            lenght = "Duration"
+            price = "Price"
+            buttontext = "Close"
+            img = ""
+            leaflet = "Leaflet (PT)"
+
 
     [params.about]
         title = "About Us"
@@ -148,3 +161,10 @@ theme = "geocrafter"
         [params.footer.credits]
             title = "Get in Touch"
             text = "Our experts will provide you the best solution!"
+
+        [params.footer.legal]
+            title = "Legal Info"
+            text = "Geocrafter - Geospatial Studio, Unipessoal Lda."
+
+        [params.footer.vat]
+            text = "VAT Number: PT514629886"

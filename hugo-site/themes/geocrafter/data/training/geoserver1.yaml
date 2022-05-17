@@ -1,0 +1,8 @@
+modalID: GS1
+module: Geoserver I
+date: 4º Trimester 2022
+lenght: 8h (1 days)
+price: 150€ (+IVA)
+description: '<div><h4>AGENDA</h4><ul class="agenda"><li>Introduction</li><li>Add and publish data</li><li>Maps and Styles</li><li>Cache with GeoWebcache</li><li>Serve Vector and Raster data</li><li>Security (intro)</li><li>Configuration (intro)</li></ul></div>'
+leaflet: https://drive.google.com/file/d/1wi_XbOAbCNZTSBICtbWMOG_Mw3Wra1Xw/view?usp=sharing
+img: https://adenilsongiovanini.com.br/blog/wp-content/uploads/2021/11/geoserver.png
