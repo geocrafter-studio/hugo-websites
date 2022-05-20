@@ -1,0 +1,43 @@
+{{ "<!-- Portfolio Modals -->" | safeHTML }}
+{{ range .Site.Data.training }}
+<div class="portfolio-modal modal fade" id="trainingsModal{{ .modalID }}" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <h2>{{ .module }}</h2>
+                        <hr class="star-primary">
+                        <img src="{{ .img }}" class="img-responsive img-centered" alt="">
+                        <p><span class="fi fi-pt"></span><span class="fi fi-gb"></span></p>
+                        <p>{{ .description | markdownify }}</p>
+                        <ul class="list-inline item-details">
+                            <li>{{ with $.Site.Params.training.modal.module }}{{.}}{{ end }}:
+                                <strong>{{ .module }}</strong>
+                            </li>
+                            <li>{{ with $.Site.Params.training.modal.date }}{{.}}{{ end }}:
+                                <strong>{{ .date }}</strong>
+                            </li>
+                            <li>{{ with $.Site.Params.training.modal.lenght }}{{.}}{{ end }}:
+                                <strong>{{ .lenght }}</strong>
+                            </li>
+                            <li>{{ with $.Site.Params.training.modal.price }}{{.}}{{ end }}:
+                                <strong>{{ .price }}</strong>
+                            </li>
+                        </ul>
+                        <p><a href="{{ .leaflet }}" target="_blank">{{ with $.Site.Params.training.modal.leaflet }}{{.}}{{ end }}</a></p>
+                        <p>For more information please contact us at <a href='mailto:info@geocrafter.eu'>info@geocrafter.eu</a></p>
+                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> {{ with $.Site.Params.workshops.modal.buttontext }}{{.}}{{ end }}</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{{ end }}
