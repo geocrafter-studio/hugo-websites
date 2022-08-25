@@ -68,18 +68,24 @@ theme = "geocrafter"
             price = "Price"
             buttontext = "Close"
 
-    [params.training]
-        title = "Trainings"
+    [params.helpdesk]
+       title = "Helpdesk"
+       link = "//helpdesk.geocrafter.eu/portal/"
+       icon = "headset"
+       text = "Can we help you?"
 
-        [params.training.modal]
-            module = "Module"
-            date = "Date"
-            contents = "Contents"
-            lenght = "Duration"
-            price = "Price"
-            buttontext = "Close"
-            img = ""
-            leaflet = "Leaflet (PT)"
+    # [params.training]
+    #     title = "Trainings"
+    #
+    #     [params.training.modal]
+    #         module = "Module"
+    #         date = "Date"
+    #         contents = "Contents"
+    #         lenght = "Duration"
+    #         price = "Price"
+    #         buttontext = "Close"
+    #         img = ""
+    #         leaflet = "Leaflet (PT)"
 
 
     [params.about]

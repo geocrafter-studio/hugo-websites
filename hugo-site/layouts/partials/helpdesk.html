@@ -1,0 +1,19 @@
+{{ "<!-- About Section -->" | safeHTML }}
+<section class="success" id="helpdesk">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2>{{ with .Site.Params.helpdesk.title }}{{.}}{{ end }}</h2>
+                <hr class="star-light">
+            </div>
+        </div>
+    <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                <h3> {{ with .Site.Params.helpdesk.text }}{{ . }}{{ end }}</h3>
+                <a href="{{ with .Site.Params.helpdesk.link }}{{.}}{{ end }}" class="btn btn-lg btn-outline">
+                    <i class="fa fa-{{ with .Site.Params.helpdesk.icon }}{{.}}{{end}}"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
