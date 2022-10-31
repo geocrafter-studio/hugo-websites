@@ -1,4 +1,4 @@
-version: '2'
+version: '3'
 
 services:
   geocrafter-dev:
@@ -20,3 +20,12 @@ services:
       - 8001:8001
     command: hugo server --bind 0.0.0.0 -b https://geocrafter.eu/ -p 8001 -t geocrafter --config themes/geocrafter/config.toml --disableLiveReload=true --appendPort=false
     restart: always
+
+  geocrafter-showcase:
+    build:
+      context: .
+      dockerfile: Dockerfile.showcase
+    container_name: hugo-geocrafter-showcase
+    command: "hugo server --bind 0.0.0.0 -b https://labs.geocrafter.eu/ -p 8003 --themesDir=../.. --disableLiveReload=true --appendPort=false"
+    ports:
+      - "8003:8003"
