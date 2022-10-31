@@ -1,0 +1,33 @@
+baseURL = "https://labs.geocrafter.eu"
+languageCode = "en-us"
+title = "-- Welcome to Geocrafter Labs --"
+Paginate = 1000
+googleAnalytics = "G-NZSK94XN0F"
+theme = "showcase"
+disableKinds = ["taxonomy", "taxonomyTerm", "RSS"]
+
+# this setting should always be set to false, otherwise it will break the section navigation bar
+pluralizelisttitles = false
+
+[params]
+  author = "Geocrafter - Geospatial Studio"
+  footer = "Geocrafter - Geospatial Studio Unip. Lda."
+  description = "We build your trust!"
+  message = "Welcome to Geocrafter Labs!"
+  hideAutoMenu = false
+
+  # Pagination options
+  paginate = 3
+  multipage = true
+
+  # Dark mode
+  darkMode = true
+
+[[menu.main]]
+  name = "Main Site"
+  url = "https://geocrafter.eu"
+
+[social]
+  twitter = "https://twitter.com/GeocrafterGS"
+  linkedin = "https://www.linkedin.com/in/geocrafter-studio/"
+  github = "https://github.com/geocrafter-studio"
