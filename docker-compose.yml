@@ -29,3 +29,12 @@ services:
     command: "hugo server --bind 0.0.0.0 -b https://labs.geocrafter.eu/ -p 8003 --themesDir=../.. --disableLiveReload=true --appendPort=false"
     ports:
       - "8003:8003"
+
+  geocrafter-academy:
+    build:
+      context: .
+      dockerfile: Dockerfile.academy
+    container_name: hugo-geocrafter-academy
+    command: "hugo server --bind 0.0.0.0 -b https://academy.geocrafter.eu/ -p 8004 --themesDir=../.. --disableLiveReload=true --appendPort=false"
+    ports:
+      - "8004:8004"

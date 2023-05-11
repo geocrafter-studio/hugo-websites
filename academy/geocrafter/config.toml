@@ -1,0 +1,35 @@
+baseURL = "https://academy.geocrafter.eu"
+languageCode = "en-us"
+title = "-- Welcome to Geocrafter Academy --"
+Paginate = 100
+googleAnalytics = ""
+theme = "showcase"
+disableKinds = ["taxonomy", "taxonomyTerm", "RSS"]
+
+# this setting should always be set to false, otherwise it will break the section navigation bar
+pluralizelisttitles = false
+
+[params]
+  author = "Geocrafter - Geospatial Studio"
+  footer = "Geocrafter - Geospatial Studio Unip. Lda."
+  description = "Welcome to Geocrafter Academy! We build your trust and knowledge!"
+  info = "For signups or more information reach us at"
+  email = "info@geocrafter.eu"
+  message = "Welcome to Geocrafter Academy!"
+  hideAutoMenu = false
+
+  # Pagination options
+  paginate = 6
+  multipage = true
+
+  # Dark mode
+  darkMode = true
+
+[[menu.main]]
+  name = "Main Site"
+  url = "https://geocrafter.eu"
+
+[social]
+  twitter = "https://twitter.com/GeocrafterGS"
+  linkedin = "https://www.linkedin.com/in/geocrafter-studio/"
+  github = "https://github.com/geocrafter-studio"
