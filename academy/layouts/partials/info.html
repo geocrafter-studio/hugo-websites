@@ -1,0 +1,10 @@
+<div class="flex flex-wrap sm:flex-row flex-col py-6 mb-12">
+  {{ if .Site.Params.Info }}
+  <h1 class="text-gray-900 dark:text-white font-medium title-font text-2xl mb-2 sm:mb-0 text-center w-full">
+    {{ .Site.Params.Info }}
+  </h1>
+  <h2 class="text-gray-900 dark:text-white font-medium title-font text-2xl mb-2 sm:mb-0 text-center w-full">
+    <a href="mailto:{{ .Site.Params.Email }}">{{ .Site.Params.Email }}</a>
+  </h2>
+  {{ end }}
+</div>
