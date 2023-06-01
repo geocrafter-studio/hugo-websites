@@ -14,6 +14,7 @@ pluralizelisttitles = false
   footer = "Geocrafter - Geospatial Studio Unip. Lda."
   description = "Welcome to Geocrafter Academy! We build your trust and knowledge!"
   info = "For signups or more information reach us at"
+  vat = "* VAT (23%) not included"
   email = "info@geocrafter.eu"
   message = "Welcome to Geocrafter Academy!"
   hideAutoMenu = false
