@@ -70,7 +70,7 @@ theme = "geocrafter"
 
     [params.helpdesk]
        title = "Helpdesk"
-       link = "//helpdesk.geocrafter.eu/portal/"
+       link = "//geocraftergs.zohodesk.com/portal/en/newticket"
        icon = "headset"
        text = "Can we help you?"
 
