@@ -1,4 +1,6 @@
 output/
 resources/
+node_modules/
 
 *.lock
+.idea

@@ -2,7 +2,7 @@ FROM alpine:3.15
 
 MAINTAINER fernando.ribeiro@geocrafter.eu
 
-ENV HUGO_VERSION=0.52
+ENV HUGO_VERSION=0.85.0
 
 RUN apk --no-cache add \
         curl \

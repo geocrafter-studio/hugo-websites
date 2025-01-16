@@ -1,0 +1,113 @@
+baseURL = "https://geocrafter.eu"
+defaultContentLanguage = "en"
+enableEmoji = true
+enableRobotsTXT = true
+languageCode = "en"
+# Choose one of emacs, trac or perldoc
+pygmentsStyle = "monokai"
+theme = "geocrafter"
+title = "Geocrafter - Geospatial Studio"
+
+[params]
+
+  avatarAltText = "avatar"
+  avatarSize = "size-m"
+  avatarURL = "/images/logo.svg"
+  avatar2URL = "/images/sentinel2.jpeg"
+
+  customHeadHTML = """
+    <!-- KaTeX -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css" integrity="sha384-Xi8rHCmBmhbuyyhbI88391ZKP2dmfnOl4rT9ZfRI7mLTdk1wblIUnrIq35nqwEvC" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.js" integrity="sha384-X/XCfMm41VSsqRNQgDerQczD69XqmjOOOwYQvr/uuC+j4OPoNhVgjdGFwhvN02Ja" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/auto-render.min.js" integrity="sha384-+XBljXPPiv+OzfbB3cVmLHf4hdUFHlWNZN5spNQ7rmHTXpd7WvJum6fIACpNNfIR" crossorigin="anonymous"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+          // customised options
+          // • auto-render specific keys, e.g.:
+          delimiters: [
+            {left: '$$', right: '$$', display: true},
+            {left: '$', right: '$', display: false},
+          ],
+          // • rendering keys, e.g.:
+          throwOnError : false
+        });
+      });
+    </script>
+  """
+
+  description = "We build your trust!"
+  abstract = true
+  abstractl1 = "We are a small innovative B2B geospatial studio fostering the usage and development of Open Source based solutions."
+  abstractl2 = "Our technical knowledge in geospatial world is built on top of two decades of experience both in public and private sectors."
+  footer = "Geocrafter - Geospatial Studio"
+  metaKeywords = ["geocrafter", "gokarna", "hugo"]
+  showBackToTopButton = true # true or false for "back to top" button on posts and pages
+
+  socialIcons = [
+    {name = "email", url = "mailto:info@geocrafter.eu"},
+    {name = "github", url = "https://github.com/geocrafter-studio"},
+    {name = "twitter", url = "https://twitter.com/GeocrafterGS"},
+    {name = "linkedin", url = "https://www.linkedin.com/company/geocrafter---geospatial-studio"},
+    {name = "whatsapp", url = "https://wa.me/351918336529"}
+
+  ]
+
+[params.contact]
+    title = "Contact Us"
+
+    # 'error' defines error messages for invalid inputs
+    [params.contact.form.name]
+        text = "Name"
+        error = "Please enter your name."
+
+    [params.contact.form.email]
+        text = "Email Address"
+        error = "Please enter your email address."
+
+    [params.contact.form.phone]
+        text = "Phone Number"
+        error = "Please enter your phone number."
+
+    [params.contact.form.modules]
+        text = "Módulo"
+        error = "Please choose your subject."
+
+    [params.contact.form.message]
+        text = "Message"
+        error = "Please enter a message."
+
+    [params.contact.form.gdpr]
+        text = "By clicking below to submit this form you acknowledge that the information you provide will be stored and processed in accordance with GDPR guidelines."
+
+    [params.contact.form.button]
+        text = "Send"
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    pre = "<span data-feather='home'></span>"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Projects"
+    pre = "<span data-feather='code'></span>"
+    url = "/projects/"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "github"
+    pre = "<span data-feather='github'></span>"
+    url = "https://github.com/geocrafter-studio"
+    weight = 3
+
+
+[markup]
+  [markup.tableOfContents]
+    startLevel = 1
+    endLevel = 4
+    ordered = false
+
+[minify]
+    minifyOutput = true
