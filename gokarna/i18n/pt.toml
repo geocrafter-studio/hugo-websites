@@ -1,0 +1,18 @@
+[Recent]
+  other = 'Posts Recentes'
+[Popular]
+  other = 'Posts'
+[error404]
+  other = 'Oops...esta página não existe.'
+[home]
+  other = 'Início'
+[nothing]
+  other = 'Nada para ver aqui, por agora... 😉'
+[previous]
+  other = 'Anterior'
+[next]
+  other = 'Próximo'
+[tags]
+  other = 'Tags'
+[Posts]
+    other = 'Posts'
