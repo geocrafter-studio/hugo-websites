@@ -44,6 +44,6 @@ services:
       context: .
       dockerfile: Dockerfile.v2
     container_name: hugo-geocrafter-v2
-    command: "hugo server --source='geocrafter/' --bind 0.0.0.0 -p 8005 --disableLiveReload=true --appendPort=false"
+    command: "hugo server --source='geocrafter/' -b https://academy.geocrafter.eu/ --bind 0.0.0.0 -p 8005 --disableLiveReload=true --appendPort=false"
     ports:
       - "8005:8005"
