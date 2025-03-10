@@ -53,36 +53,6 @@ title = "Geocrafter - Geospatial Studio"
 
   ]
 
-[params.contact]
-    title = "Contact Us"
-
-    # 'error' defines error messages for invalid inputs
-    [params.contact.form.name]
-        text = "Name"
-        error = "Please enter your name."
-
-    [params.contact.form.email]
-        text = "Email Address"
-        error = "Please enter your email address."
-
-    [params.contact.form.phone]
-        text = "Phone Number"
-        error = "Please enter your phone number."
-
-    [params.contact.form.modules]
-        text = "Módulo"
-        error = "Please choose your subject."
-
-    [params.contact.form.message]
-        text = "Message"
-        error = "Please enter a message."
-
-    [params.contact.form.gdpr]
-        text = "By clicking below to submit this form you acknowledge that the information you provide will be stored and processed in accordance with GDPR guidelines."
-
-    [params.contact.form.button]
-        text = "Send"
-
 [menu]
   [[menu.main]]
     name = "Home"
@@ -97,10 +67,22 @@ title = "Geocrafter - Geospatial Studio"
     weight = 2
 
   [[menu.main]]
+    name = "Hosting"
+    pre = "<span data-feather='server'></span>"
+    url = "/hosting/"
+    weight = 3
+
+  [[menu.main]]
+    name = "Helpdesk"
+    pre = "<span data-feather='headphones'></span>"
+    url = "https://helpdesk.geocrafter.eu"
+    weight = 4
+
+  [[menu.main]]
     identifier = "github"
     pre = "<span data-feather='github'></span>"
     url = "https://github.com/geocrafter-studio"
-    weight = 3
+    weight = 5
 
 
 [markup]
